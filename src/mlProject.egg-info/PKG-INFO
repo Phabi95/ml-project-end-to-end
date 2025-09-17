@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: mlProject
+Version: 0.0.0
+Summary: A small python package for ml app
+Home-page: https://github.com/Phabi95/End-to-end-ML-Project
+Author: Phabi95
+Author-email: Ge-mak@hotmail.com
+Project-URL: Bug Tracker, https://github.com/Phabi95/End-to-end-ML-Project/issues
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+''' bash
+pip install -r requirements.txt
+'''
