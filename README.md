@@ -35,53 +35,27 @@ Follow these steps to run the project on your local machine.
 git clone [https://github.com/Phabi95/ml-project-end-to-end.git](https://github.com/Phabi95/ml-project-end-to-end.git)
 cd ml-project-end-to-end
 
-### 2. Create a virtual environment
+2. Create a virtual environment
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 
-### 3. Install dependencies
+ 3. Install dependencies
 
 This project requires several libraries. Make sure you have a requirements.txt file in your repository.
 
 ```bash
 pip install -r requirements.txt
 
-### 4. Run the Application
-
-Markdown
-
-### 2. Create a virtual environment
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-
-(On Windows, use: .venv\Scripts\activate)
-
-### 3. Install dependencies
-
-This project requires several libraries. Make sure you have a requirements.txt file in your repository.
-
-(If you don't have one, run this command in your terminal to create it before you upload to GitHub):
-Bash
-
-pip freeze > requirements.txt
-
-(For a user downloading the project, they just run):
-Bash
-
-pip install -r requirements.txt
-
-### 4. Run the Application
+4. Run the Application
 
 You must run the Flask app to start the web server.
 
 ```bash
 python app.py
 
-### 5. Access the Web App
+ 5. Access the Web App
 
 Once the server is running, open your web browser and go to:
 
@@ -89,7 +63,7 @@ http://127.0.0.1:8080/
 
 You will see the index.html page with a form.
 
-### 6. Make a Prediction
+ 6. Make a Prediction
 
     Fill in the 11 fields for wine properties (e.g., fixed_acidity, alcohol, etc.).
 
